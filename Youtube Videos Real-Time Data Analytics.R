@@ -12,7 +12,7 @@ library(scales)
 # --------------------------------------------------
 # Secure API Key Handling
 # --------------------------------------------------
-
+Sys.setenv(MY_YT_API_KEY = "YOUR_API_KEY_HERE")
 yt_api_key <- Sys.getenv("MY_YT_API_KEY")
 
 if (yt_api_key == "" || yt_api_key == "YOUR_API_KEY_HERE") {
